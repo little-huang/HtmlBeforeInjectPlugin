@@ -1,0 +1,26 @@
+{
+  "name": "html-before-inject-plugin",
+  "version": "1.0.0",
+  "description": "The plug-in injected after webpack compiles the HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/little-huang/HtmlBeforeInjectPlugin.git"
+  },
+  "keywords": [
+    "npm",
+    "webpack",
+    "plugin",
+    "webpack-html",
+    "webpack-plugin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/little-huang/HtmlBeforeInjectPlugin/issues"
+  },
+  "homepage": "https://github.com/little-huang/HtmlBeforeInjectPlugin#readme"
+}

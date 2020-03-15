@@ -1,4 +1,4 @@
-export default class HtmlBeforeInjectPlugin {
+class HtmlBeforeInjectPlugin {
   
   constructor(cb, args) {
     this.cb = typeof cb == 'function' ? cb : (data) => (data);
@@ -7,7 +7,7 @@ export default class HtmlBeforeInjectPlugin {
 
   apply(compiler) {
 
-    compiler.hooks.compilation.tap('setVersion', (compilation) => {
+    compiler.hooks.compilation.tap('setCustomData', (compilation) => {
 
       compilation.plugin(
         'html-webpack-plugin-before-html-processing',
@@ -20,3 +20,5 @@ export default class HtmlBeforeInjectPlugin {
 
   }
 }
+
+module.exports = HtmlBeforeInjectPlugin;
